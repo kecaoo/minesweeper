@@ -127,7 +127,7 @@ def play_game(positions):
             break
 
         if mines:
-            print("BOOM GAME OVER")
+            print("u suck")
             break
 
 
