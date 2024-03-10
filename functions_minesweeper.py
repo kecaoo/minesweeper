@@ -122,7 +122,7 @@ def count_adjacent_mines(board_list, row, column):
     Adjacent squares checked must not out of the bounds of the 5x5 grid. These are ignored.
     """
 
-    """Creating variables to check adjacent positions"""
+    """Creating variables to check the adjacent positions"""
     location_up = (row - 1) * 5 + column
     location_down = (row + 1) * 5 + column
     location_right = row * 5 + (column + 1)
