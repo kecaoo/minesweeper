@@ -12,6 +12,7 @@ def initialise_board():
 
     """
 
+    """Creating a list of 25 integer 'O's"""
     board_list = ['O' for i in range(25)]
 
     return board_list
